@@ -1,0 +1,177 @@
+* {
+  font-family: "Yu Gothic", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  font-family: "Yu Gothic", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header__lis--bold {
+  font-weight: bold;
+}
+
+.main {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+.main .container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+.main .container .header {
+  margin-top: 3.9rem;
+}
+.main .container .header__list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.4rem;
+  color: #222222;
+}
+.main .container .header__list > :nth-child(3) a {
+  color: #222222;
+  margin-left: 3.3rem;
+}
+.main .container .header__list > :nth-child(2) a {
+  color: #222222;
+  margin-left: 3.2rem;
+}
+.main .container .header__list > :nth-child(2) a {
+  color: #222222;
+}
+.main .container .link {
+  font-size: 1.4rem;
+  margin-top: 6.7rem;
+}
+.main .container .box__image {
+  width: 100%;
+  height: 36rem;
+  background-color: #afafaf;
+  margin-top: 4.2rem;
+  position: relative;
+}
+.main .container .box__image .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -54%);
+  color: #cccccc;
+  font-size: 4.2rem;
+  font-weight: bold;
+  user-select: none;
+}
+.main .container .box__image .btn {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #222222;
+  font-weight: bold;
+  padding: 1rem 2.2rem 1rem 2.2rem;
+  background-color: #ffdfdf;
+  position: absolute;
+  margin-left: 4rem;
+  margin-top: 21.9rem;
+}
+.main .container .box__image .mess {
+  position: absolute;
+  font-size: 2rem;
+  margin-left: 4rem;
+  max-width: 40rem;
+  margin-top: 26.7rem;
+  line-height: 1.5;
+}
+.main .container .container__img--text {
+  font-size: 2.4rem;
+  font-weight: bold;
+  padding: 1.2rem 2.2rem 1.2rem 2.1rem;
+  border-top: 0.1rem solid #ffd800;
+  border-left: 0.7rem solid #ffd800;
+  border-bottom: 0.1rem solid #ffd800;
+  border-right: 0.1rem solid #ffd800;
+  margin-top: 4.3rem;
+  background-color: #fff9da;
+}
+.main .container .container__img .img__list--item {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+.main .container .container__img .img__list--item .item__left {
+  width: 35rem;
+  height: 19rem;
+  background-color: #afafaf;
+  position: relative;
+}
+.main .container .container__img .img__list--item .item__left .text {
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+.main .container .container__img .img__list--item .item__right {
+  flex: 1;
+  position: relative;
+}
+.main .container .container__img .img__list--item .item__right--title {
+  color: #222222;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.main .container .container__img .img__list--item .item__right--mess {
+  color: #222222;
+  font-size: 1.4rem;
+  margin-top: 1.2rem;
+  line-height: 1.4;
+}
+.main .container .container__img .img__list--item .item__right--btn {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 1.7rem 5.4rem;
+  background-color: #afafaf;
+  display: inline-block;
+  border-radius: 0.4rem;
+  margin-right: 0.2rem;
+  position: absolute;
+  bottom: 0.2rem;
+  right: 0;
+}
+.main .container .container__img .img__list > :nth-child(1) .item__left--btn {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: #222222;
+  padding: 0.8rem 2.1rem 0.8rem 2.1rem;
+  background-color: #a3d39c;
+}
+.main .container .container__img .img__list > :nth-child(2) .item__left--btn {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: #222222;
+  padding: 0.8rem 2.1rem 0.8rem 2.1rem;
+  background-color: #fff799;
+}
+.main .container .container__img .img__list > :nth-child(3) .item__left--btn {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: #222222;
+  padding: 0.8rem 2.1rem 0.8rem 2.1rem;
+  background-color: #ffdfdf;
+}
+.main .container .container__img .img__list > :nth-child(4) .item__left--btn {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: #222222;
+  padding: 0.8rem 2.1rem 0.8rem 2.1rem;
+  background-color: #a3d39c;
+}
+
+/*# sourceMappingURL=style.css.map */
